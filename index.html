@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Notifit by naoxink</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Notifit</h1>
+        <p>Simple animated notifications with JQuery</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/naoxink/notifIt" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/naoxink/notifIt/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/naoxink/notifIt/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a name="notifit" class="anchor" href="#notifit"><span class="octicon octicon-link"></span></a>notifIt!</h1>
+
+<h4>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h4>
+
+<p>Simple notifications with JQuery.</p>
+
+<p>Now you can send notifications of everything you want and when you want, simply and quickly.
+Easy to learn and use. Customize with your favorite colors, define the size you want, set the opacity, make a sticky one and much more!</p>
+
+<h4>
+<a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h4>
+
+<p><a href="https://dl.dropboxusercontent.com/u/19156616/ficheros/notifIt!-1.1/index.html">https://dl.dropboxusercontent.com/u/19156616/ficheros/notifIt!-1.1/index.html</a></p>
+
+<h4>
+<a name="configuration" class="anchor" href="#configuration"><span class="octicon octicon-link"></span></a>Configuration</h4>
+
+<ul>
+<li>
+<strong>type</strong> [String] success, error, warning, info</li>
+<li>
+<strong>msg</strong> [String]</li>
+<li>
+<strong>position</strong> [String] Left, center, right [optional]</li>
+<li>
+<strong>width</strong> [Integer] [optional]</li>
+<li>
+<strong>height</strong> [Integer] [optional]</li>
+<li>
+<strong>autohide</strong> [Boolean] [optional]</li>
+<li>
+<strong>opacity</strong> [Float] [From 0 to 1] [optional]</li>
+<li>
+<strong>multiline</strong> [Boolean] [optional]</li>
+<li>
+<strong>fade</strong> [Boolean] [optional]</li>
+<li>
+<strong>bgcolor</strong> [String] [optional]</li>
+<li>
+<strong>color</strong> [String] [optional]</li>
+<li>
+<strong>timeout</strong> [Integer] [optional]</li>
+</ul><h4>
+<a name="plug" class="anchor" href="#plug"><span class="octicon octicon-link"></span></a>Plug</h4>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"js/notifIt.js"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">href=</span><span class="s">"css/notifIt.css"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+</pre></div>
+
+<h4>
+<a name="-play" class="anchor" href="#-play"><span class="octicon octicon-link"></span></a>&amp; Play</h4>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">notif</span><span class="p">({</span>
+    <span class="nx">msg</span><span class="o">:</span> <span class="s2">"&lt;b&gt;Oops!&lt;/b&gt; A wild error appeared!"</span><span class="p">,</span>
+    <span class="nx">type</span><span class="o">:</span> <span class="s2">"error"</span><span class="p">,</span>
+    <span class="nx">position</span><span class="o">:</span> <span class="s2">"center"</span>
+<span class="p">});</span>
+</pre></div>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/naoxink">naoxink</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
