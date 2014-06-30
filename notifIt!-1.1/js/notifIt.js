@@ -8,7 +8,7 @@ function notif(datas) {
         width: 400,
         height: 60,
         horizontal: "center",
-        vertical: "bottom",
+        vertical: "top",
         autohide: 1,
         msg: "This is my default message",
         opacity: 1,
